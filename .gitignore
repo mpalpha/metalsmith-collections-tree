@@ -1,0 +1,11 @@
+# Project directories
+node_modules
+# Generated files
+test/fixtures/basic/build
+# OS & project generated files
+*.orig
+.log
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+.idea
