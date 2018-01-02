@@ -1,9 +1,14 @@
 # metalsmith-collections-tree
+
 create nested metadata from the metalsmith-collections global metadata
 
 ## Installation
 
-    $ npm install metalsmith-collections-tree or & yarn add metalsmith-collections-tree
+    $ npm install metalsmith-collections-tree
+
+or
+
+    $ yarn add metalsmith-collections-tree
 
 ## Usage
 
