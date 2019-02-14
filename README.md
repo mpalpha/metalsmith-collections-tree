@@ -23,6 +23,12 @@ metalsmith.use(collectionsTree({
 }));
 ```
 
+## Extra's
+
+Allows advanced custom sorting to be matched with [metalsmith-collections](https://github.com/segmentio/metalsmith-collections).
+
+see an example [here!](https://gist.github.com/mpalpha/84885ec88fa86431bc193ce63b365e46)
+
 ## License
 
   MIT
