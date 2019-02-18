@@ -12,14 +12,16 @@ or
 
 ## Usage
 
-Create collections tree after metalsmith-collections:
+Create collections tree after metalsmith-collections: 
 
 ```js
 var collectionsTree = require('metalsmith-collections-tree');
 metalsmith.use(collections());
 metalsmith.use(collectionsTree({
-  sortKey: 'path', 
-  extension: 'html'
+  sortKey: 'path',
+  extension: 'html',
+  permalinks: true,
+  pattern: ':dirname/:stem'
 }));
 ```
 
@@ -29,6 +31,10 @@ Allows advanced custom sorting to be matched with [metalsmith-collections](https
 
 see an example [here!](https://gist.github.com/mpalpha/84885ec88fa86431bc193ce63b365e46)
 
+##### *Notes*
+*collections trees are accessible via "collections-tree" metadata for each collection or ".all"*
+
 ## License
 
   MIT
+  
