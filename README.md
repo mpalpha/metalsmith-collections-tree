@@ -19,17 +19,18 @@ var collectionsTree = require('metalsmith-collections-tree');
 metalsmith.use(collections());
 metalsmith.use(collectionsTree({
   sortKey: 'path',
-  extension: 'html',
-  permalinks: true,
-  pattern: ':dirname/:stem'
+  extension: 'html'
 }));
 ```
 
-## Extra's
+## Extra
 
-Allows advanced custom sorting to be matched with [metalsmith-collections](https://github.com/segmentio/metalsmith-collections).
+1) Allows advanced custom sorting to be matched with [metalsmith-collections](https://github.com/segmentio/metalsmith-collections).
 
-see an example [here!](https://gist.github.com/mpalpha/84885ec88fa86431bc193ce63b365e46)
+See an example [here!](https://gist.github.com/mpalpha/84885ec88fa86431bc193ce63b365e46)
+
+
+2) File details are now passed through. Which works with the following PR for [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks/pull/90).
 
 ##### *Notes*
 *collections trees are accessible via "collections-tree" metadata for each collection or ".all"*
