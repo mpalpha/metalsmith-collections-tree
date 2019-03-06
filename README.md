@@ -29,7 +29,6 @@ metalsmith.use(collectionsTree({
 
 See an example [here!](https://gist.github.com/mpalpha/84885ec88fa86431bc193ce63b365e46)
 
-
 2) File details are now passed through. Which works with the following PR for [metalsmith-permalinks](https://github.com/segmentio/metalsmith-permalinks/pull/90).
 
 ##### *Notes*
