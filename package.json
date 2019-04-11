@@ -1,16 +1,16 @@
 {
   "name": "metalsmith-collections-tree",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "create nested metadata from the metalsmith-collections global metadata",
   "main": "lib/index.js",
   "repository": "git://github.com/mpalpha/metalsmith-collections-tree.git",
   "license": "MIT",
   "dependencies": {
-    "debug": "^4.1.1",
     "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0"
   },
   "devDependencies": {
+    "debug": "^4.1.1",
     "mocha": "^5.2.0"
   },
   "scripts": {
